@@ -52,11 +52,11 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Image
-              src="/images/image03.png"
+              src="/images/assets/image04.png"
               alt={siteConfig.name}
               width={200}
               height={100}
-              className="h-16 w-auto brightness-0 invert mb-4"
+              className="h-16 w-auto bg-amber-50 rounded-3xl mb-4"
             />
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               {footerContent.description}

@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     "youth sports Brooklyn",
   ],
   icons: {
-    icon: "/images/youthnyc_icon.png",
-    apple: "/images/youthnyc_icon.png",
+    icon: "/images/assets/youthnyc_icon.png",
+    apple: "/images/assets/youthnyc_icon.png",
   },
   openGraph: {
     title: "Youth & Community Empowerment Center",

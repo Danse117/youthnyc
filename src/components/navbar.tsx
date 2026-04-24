@@ -76,7 +76,7 @@ export function Navbar() {
       <div className="mx-auto flex h-18 max-w-7xl items-center justify-between px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src={siteConfig.logoCompact}
+            src="/images/assets/image04.png"
             alt={siteConfig.name}
             width={180}
             height={45}

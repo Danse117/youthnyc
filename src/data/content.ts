@@ -21,8 +21,8 @@ export const siteConfig = {
     instagram:
       "https://www.instagram.com/centeryouthcommunity?igsh=MWE4czJscG11dHczZA==",
   },
-  logo: "/images/image01.png",
-  logoCompact: "/images/image04.png",
+  logo: "/images/assets/youthnyc_icon.png",
+  logoCompact: "/images/assets/image04.png",
   galleryDropbox:
     "https://www.dropbox.com/scl/fo/wqct8fjzba99nk1jailzm/AFmT2-tP5vybMMbhve1XAVY?rlkey=nnktp0qztx8xjn5r5f55jo64h&st=iryoxc6o&dl=0",
 };
@@ -211,6 +211,62 @@ export const galleryImages = [
     alt: "YCEC community celebration event at Bay Ridge center",
     caption: "Community Celebration — Bay Ridge",
   },
+  {
+    src: "/images/image1.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image2.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image3.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image4.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image5.jpeg",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image6.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image7.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image8.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image20.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image21.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image22.JPG",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image10.jpeg",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image11.jpeg",
+    alt: "YCEC community program moment in Brooklyn",
+  },
+  {
+    src: "/images/image12.jpeg",
+    alt: "YCEC community program moment in Brooklyn",
+  },
 ];
 
 export const donateContent = {
@@ -232,7 +288,7 @@ export const donateContent = {
   ],
   ctaText: "Donate Now",
   zelleInfo: {
-    image: "/images/image02.png",
+    image: "/images/assets/image02.png",
     text: "You can also donate via Zelle to info@youthnyc.org",
   },
   otherWays: {

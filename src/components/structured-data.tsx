@@ -6,7 +6,7 @@ const organizationSchema = {
   name: siteConfig.name,
   alternateName: siteConfig.shortName,
   url: siteConfig.url,
-  logo: `${siteConfig.url}/images/image01.png`,
+  logo: `${siteConfig.url}/images/assets/youthnyc_icon.png`,
   description:
     "Brooklyn nonprofit empowering youth through sports, education, language classes, and after-school programs in Bay Ridge.",
   email: siteConfig.email,
@@ -30,7 +30,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "CommunityCenter",
   name: siteConfig.name,
-  image: `${siteConfig.url}/images/image01.png`,
+  image: `${siteConfig.url}/images/assets/youthnyc_icon.png`,
   telephone: "+1-718-866-0666",
   email: siteConfig.email,
   url: siteConfig.url,

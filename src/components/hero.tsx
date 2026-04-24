@@ -8,11 +8,11 @@ import { Button } from "@/components/ui/button";
 import { heroContent, siteConfig } from "@/data/content";
 
 const heroImages = [
-  "/images/slideshow01-0b7759d4.jpg",
-  "/images/slideshow01-4c6df786.jpg",
-  "/images/slideshow02-6ff65f87.jpg",
-  "/images/slideshow02-938a08ad.jpg",
-  "/images/slideshow02-58c16b3d.jpg",
+  "/images/gallery01/hero.JPG",
+  "/images/image1.JPG",
+  "/images/image21.JPG",
+  "/images/image6.JPG",
+  "/images/image8.JPG",
 ];
 
 export function Hero() {
