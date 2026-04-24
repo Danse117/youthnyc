@@ -113,7 +113,7 @@ export const programs = [
       "Swimming",
       "Chess",
     ],
-    image: "/images/slideshow02-6ff65f87.jpg",
+    image: "/images/image14.jpg",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd6lBX3A_XMofCuhba4bdEMEQYE1aZIYIUYSJrlfM7Xa_mHlw/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSd6lBX3A_XMofCuhba4bdEMEQYE1aZIYIUYSJrlfM7Xa_mHlw/viewform" },
   },
@@ -130,7 +130,7 @@ export const programs = [
       "Graduation Ceremony",
       "Professional Development",
     ],
-    image: "/images/gallery01/d56cbf97.jpg",
+    image: "/images/image10.jpeg",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform" },
   },
@@ -144,7 +144,7 @@ export const programs = [
       "Arabic Classes",
       "English Classes",
     ],
-    image: "/images/slideshow02-938a08ad.jpg",
+    image: "/images/image20.jpg",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform" },
   },
@@ -166,11 +166,7 @@ export const programs = [
 ];
 
 export const galleryImages = [
-  {
-    src: "/images/gallery01/eed5dc90.jpg",
-    alt: "YCEC Ramadan Welcome 2026 community gathering in Brooklyn",
-    caption: "Ramadan Welcome 2026 — Bay Ridge, Brooklyn",
-  },
+
   {
     src: "/images/gallery01/d56cbf97.jpg",
     alt: "YCEC youth graduation ceremony in Brooklyn NY",
@@ -190,11 +186,6 @@ export const galleryImages = [
     src: "/images/slideshow01-0b7759d4.jpg",
     alt: "YCEC community members at Ramadan celebration in Brooklyn NY",
     caption: "Community Ramadan Gathering — Brooklyn",
-  },
-  {
-    src: "/images/slideshow01-4c6df786.jpg",
-    alt: "Youth & Community Empowerment Center Brooklyn group photo",
-    caption: "YCEC Community Event",
   },
   {
     src: "/images/slideshow02-6ff65f87.jpg",
