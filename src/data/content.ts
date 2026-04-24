@@ -36,7 +36,7 @@ export const navigation = [
 ];
 
 export const heroContent = {
-  heading: "Help Empower\nThe Youth",
+  heading: "Empowering Youth Today\nTo Become \nLeaders Tomorrow",
   subheading: "Sign up to volunteer today. Be the change they need.",
   primaryCta: { label: "Donate Now", href: "/donate" },
   secondaryCta: { label: "Sign Up to Volunteer", href: siteConfig.volunteerFormUrl, external: true },
