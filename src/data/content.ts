@@ -130,7 +130,7 @@ export const programs = [
       "Graduation Ceremony",
       "Professional Development",
     ],
-    image: "/images/image10.jpeg",
+    image: "/images/gallery01/hero.jpg",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform" },
   },
