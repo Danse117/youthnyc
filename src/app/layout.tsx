@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: "%s | YCEC Brooklyn",
   },
   description:
-    "Brooklyn nonprofit empowering youth through sports, education, language classes, and after-school programs in Bay Ridge. Volunteer or donate today.",
+    "Brooklyn nonprofit empowering youth through sports, education, language classes, art, and after-school programs in Bay Ridge. Volunteer or donate today.",
   keywords: [
     "youth programs Brooklyn",
     "nonprofit Brooklyn NY",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Youth & Community Empowerment Center",
     description:
-      "Empowering Brooklyn youth through sports, education, language, and after-school programs.",
+      "Empowering Brooklyn youth through sports, education, language, art, and after-school programs.",
     url: "https://www.youthnyc.org",
     siteName: "Youth & Community Empowerment Center",
     locale: "en_US",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Youth & Community Empowerment Center",
     description:
-      "Empowering Brooklyn youth through sports, education, language, and after-school programs.",
+      "Empowering Brooklyn youth through sports, education, language, art, and after-school programs.",
     images: ["/images/og-image.jpg"],
   },
   robots: { index: true, follow: true },

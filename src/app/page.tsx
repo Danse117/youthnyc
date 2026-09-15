@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "motion/react";
+import { SocialFeed } from "@/components/social-feed";
 import { Hero } from "@/components/hero";
 import { SectionHeader } from "@/components/section-header";
 import { ProgramCard } from "@/components/program-card";
@@ -64,7 +65,7 @@ export default function HomePage() {
             title="Our Programs"
             subtitle="We offer a range of programs designed to support youth development, education, and community engagement."
           />
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {programs.map((program, index) => (
               <ProgramCard key={program.id} {...program} index={index} />
             ))}
@@ -86,6 +87,8 @@ export default function HomePage() {
 
       {/* Contact */}
       <ContactBlock />
+
+      <SocialFeed />
     </>
   );
 }

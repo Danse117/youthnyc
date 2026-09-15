@@ -16,6 +16,7 @@ export const siteConfig = {
     zip: "11209",
   },
   social: {
+    facebookPageId: "61585605772178",
     facebook:
       "https://www.facebook.com/people/Youth-Community-Empowerment-Center/61585605772178/",
     instagram:
@@ -144,7 +145,7 @@ export const programs = [
       "Arabic Classes",
       "English Classes",
     ],
-    image: "/images/image20.JPG",
+    image: "/images/language-community.JPG",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform" },
   },
@@ -162,6 +163,21 @@ export const programs = [
     image: "/images/gallery01/3842271f.jpg",
     signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfYpIFUQnKYBPVwg-JAzRy1dePChZfoZqxmauT1kUucRNp4Mg/viewform",
     cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSfYpIFUQnKYBPVwg-JAzRy1dePChZfoZqxmauT1kUucRNp4Mg/viewform" },
+  },
+  {
+    id: "art",
+    title: "Art",
+    subtitle: "Create, Explore, and Express Yourself",
+    description:
+      "Discover the joy of making something your own. Our Art program encourages young people to explore their creativity, experiment with color and materials, and express their ideas in a supportive community. Through creative projects, participants can build confidence, practice new skills, and connect with one another.",
+    features: [
+      "Drawing and Sketching",
+      "Painting and Color Exploration",
+      "Creative Crafts",
+      "Collaborative Art Projects",
+    ],
+    image: "/images/art-placeholder.svg",
+    cta: { label: "Contact Us About Art", href: `mailto:${siteConfig.email}?subject=Art%20Program%20Inquiry` },
   },
 ];
 
@@ -264,10 +280,10 @@ export const donateContent = {
   heading: "Support Our Mission",
   subheading: "Your donation makes a difference",
   description:
-    "When you give to the Youth & Community Empowerment Center, you invest in the future of our neighborhood\u2019s youth. Your contribution helps sustain free and low-cost programs in sports, education, Arabic, and after-school enrichment, ensuring that every young person has access to a safe, supportive environment. Together, we can provide mentorship, meaningful opportunities, and a sense of belonging for the next generation of community leaders.",
+    "When you give to the Youth & Community Empowerment Center, you invest in the future of our neighborhood\u2019s youth. Your contribution helps sustain free and low-cost programs in sports, education, language, art, and after-school enrichment, ensuring that every young person has access to a safe, supportive environment. Together, we can provide mentorship, meaningful opportunities, and a sense of belonging for the next generation of community leaders.",
   impactStats: [
     { number: "500+", label: "Youth Served Annually" },
-    { number: "4", label: "Core Programs" },
+    { number: String(programs.length), label: "Core Programs" },
     { number: "100%", label: "Community Focused" },
   ],
   impactItems: [
@@ -275,6 +291,7 @@ export const donateContent = {
     "Support educational programs, college prep, and graduation ceremonies",
     "Provide Arabic and English language classes for youth and elders",
     "Maintain after-school programming with homework help and tutoring",
+    "Encourage creativity and self-expression through art",
     "Enable community events, mentorship, and leadership training",
   ],
   ctaText: "Donate Now",
@@ -328,3 +345,16 @@ export const footerContent = {
   ],
   copyright: `\u00A9 ${new Date().getFullYear()} Youth & Community Empowerment Center. All rights reserved.`,
 };
+
+export const galleryAlbums = [
+  {
+    id: "1BypkvkJqQY67f7BO-Au3fUAhHQLeaJMI",
+    title: "Eid Celebration",
+    description: "Photos and video from our community celebration.",
+  },
+  {
+    id: "1aIloW104xHYyETqrNJTi7SsEYwyZdiQn",
+    title: "Community Photo Album",
+    description: "More moments shared by our community.",
+  },
+];

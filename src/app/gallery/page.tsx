@@ -1,5 +1,6 @@
 import { PageHeader } from "@/components/page-header";
 import { GalleryGrid } from "@/components/gallery-grid";
+import { GalleryAlbums } from "@/components/gallery-albums";
 import { galleryImages, siteConfig } from "@/data/content";
 import type { Metadata } from "next";
 
@@ -27,6 +28,7 @@ export default function GalleryPage() {
       <section className="py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <GalleryGrid images={galleryImages} />
+          <GalleryAlbums />
 
           <div className="text-center mt-12">
             <a

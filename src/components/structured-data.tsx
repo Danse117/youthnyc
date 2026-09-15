@@ -8,7 +8,7 @@ const organizationSchema = {
   url: siteConfig.url,
   logo: `${siteConfig.url}/images/assets/youthnyc_icon.png`,
   description:
-    "Brooklyn nonprofit empowering youth through sports, education, language classes, and after-school programs in Bay Ridge.",
+    "Brooklyn nonprofit empowering youth through sports, education, language classes, art, and after-school programs in Bay Ridge.",
   email: siteConfig.email,
   telephone: "+1-718-866-0666",
   address: {
