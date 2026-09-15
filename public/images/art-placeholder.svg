@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f4eee7"/>
+  <circle cx="320" cy="330" r="185" fill="#c45043" opacity=".85"/>
+  <path d="M510 130h350v350H510z" fill="#263e59" transform="rotate(12 685 305)"/>
+  <path d="m750 650 160-310 170 310z" fill="#d3ad60"/>
+  <path d="M170 650q190-200 390-15" fill="none" stroke="#547d76" stroke-width="70" stroke-linecap="round"/>
+  <rect x="380" y="696" width="440" height="126" rx="20" fill="#f4eee7"/>
+  <text x="600" y="753" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#263e59">Art at YCEC</text>
+  <text x="600" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#586470">Program photo coming soon</text>
+</svg>

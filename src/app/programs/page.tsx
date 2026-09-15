@@ -20,7 +20,7 @@ export default function ProgramsPage() {
     <>
       <PageHeader
         title="Our Programs"
-        subtitle="Empowering youth through education, sports, language, and community engagement."
+        subtitle="Empowering youth through education, sports, language, art, and community engagement."
       />
 
       <div className="py-16 sm:py-24">
@@ -53,6 +53,7 @@ export default function ProgramsPage() {
                         src={program.image}
                         alt={program.title}
                         fill
+                        sizes="(max-width: 1024px) 100vw, 50vw"
                         className="object-cover"
                       />
                     </div>
@@ -89,7 +90,7 @@ export default function ProgramsPage() {
                           render={
                             <a
                               href={program.cta.href}
-                              target="_blank"
+                              target={program.cta.href.startsWith("http") ? "_blank" : undefined}
                               rel="noopener noreferrer"
                             />
                           }
