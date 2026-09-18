@@ -18,6 +18,8 @@ interface ProgramCardProps {
   description: string;
   features: string[];
   image: string;
+  imagePosition?: string;
+  imageAlt?: string;
   cta: { label: string; href: string };
   index?: number;
 }
@@ -36,6 +38,8 @@ export function ProgramCard({
   description,
   features,
   image,
+  imagePosition,
+  imageAlt,
   cta,
   index = 0,
 }: ProgramCardProps) {
@@ -52,7 +56,8 @@ export function ProgramCard({
         <div className="relative h-52 overflow-hidden">
           <Image
             src={image}
-            alt={title}
+            alt={imageAlt ?? title}
+            style={{ objectPosition: imagePosition }}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105"
