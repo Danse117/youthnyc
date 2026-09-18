@@ -51,7 +51,8 @@ export default function ProgramsPage() {
                     >
                       <Image
                         src={program.image}
-                        alt={program.title}
+                        alt={program.imageAlt ?? program.title}
+                        style={{ objectPosition: program.imagePosition }}
                         fill
                         sizes="(max-width: 1024px) 100vw, 50vw"
                         className="object-cover"

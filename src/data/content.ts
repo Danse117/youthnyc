@@ -176,7 +176,9 @@ export const programs = [
       "Creative Crafts",
       "Collaborative Art Projects",
     ],
-    image: "/images/art-placeholder.svg",
+    image: "/images/art-program.jpg",
+    imagePosition: "50% 10%",
+    imageAlt: "Young people making crafts together at a YCEC art program",
     cta: { label: "Contact Us About Art", href: `mailto:${siteConfig.email}?subject=Art%20Program%20Inquiry` },
   },
 ];
