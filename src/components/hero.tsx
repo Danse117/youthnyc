@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Button } from "@/components/ui/button";
-import { heroContent, siteConfig } from "@/data/content";
+import { ProgramSignup } from "@/components/program-signup";
+import { heroContent } from "@/data/content";
 
 const heroImages = [
   "/images/gallery01/hero.JPG",
@@ -93,21 +94,13 @@ export function Hero() {
             >
               {heroContent.primaryCta.label}
             </Button>
-            <Button
-              render={
-                <a
-                  href={heroContent.secondaryCta.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                />
-              }
-              nativeButton={false}
+            <ProgramSignup
+              title="Volunteer"
+              formUrl={heroContent.secondaryCta.href}
+              label={heroContent.secondaryCta.label}
               variant="outline"
-              size="lg"
               className="h-12 px-8 text-base font-semibold border-white/30 text-white bg-white/10 hover:bg-white/20 hover:text-white"
-            >
-              {heroContent.secondaryCta.label}
-            </Button>
+            />
           </motion.div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { PageHeader } from "@/components/page-header";
 import { CTASection } from "@/components/cta-section";
-import { Button } from "@/components/ui/button";
+import { ProgramSignup } from "@/components/program-signup";
 import { programs, siteConfig } from "@/data/content";
 
 function CheckIcon() {
@@ -86,22 +86,15 @@ export default function ProgramsPage() {
                           </li>
                         ))}
                       </ul>
-                      <div className="mt-8">
-                        <Button
-                          render={
-                            <a
-                              href={program.cta.href}
-                              target={program.cta.href.startsWith("http") ? "_blank" : undefined}
-                              rel="noopener noreferrer"
-                            />
-                          }
-                          nativeButton={false}
-                          className="bg-accent text-accent-foreground hover:bg-accent/90"
-                        >
-                          {program.cta.label}
-                        </Button>
-                      </div>
                     </div>
+                  </div>
+                  <div className="mt-8 flex justify-center">
+                    <ProgramSignup
+                      title={program.title}
+                      formUrl={program.cta.href}
+                      label={program.cta.label}
+                      className="h-14 w-full max-w-xs px-10 text-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90"
+                    />
                   </div>
                 </motion.div>
               );
@@ -114,6 +107,7 @@ export default function ProgramsPage() {
         heading="Help Empower The Youth"
         description="Sign up to volunteer today. Be the change they need."
         cta={{ label: "Volunteer", href: siteConfig.volunteerFormUrl }}
+        formTitle="Volunteer"
         variant="primary"
       />
     </>

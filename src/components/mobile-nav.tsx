@@ -1,5 +1,6 @@
 "use client";
 
+import { X } from "lucide-react";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,6 +8,7 @@ import { usePathname } from "next/navigation";
 import {
   Sheet,
   SheetContent,
+  SheetClose,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
@@ -83,10 +85,10 @@ export function MobileNav() {
         <MenuIcon />
         <span className="sr-only">Toggle menu</span>
       </SheetTrigger>
-      <SheetContent side="right" className="w-80 p-0">
+      <SheetContent side="right" className="w-80 p-0" showCloseButton={false}>
         <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
         <div className="flex flex-col h-full">
-          <div className="flex items-center gap-2 p-6 pb-4">
+          <div className="flex items-center justify-between gap-2 px-6 py-4">
             <Image
               src={siteConfig.logoCompact}
               alt={siteConfig.name}
@@ -94,6 +96,12 @@ export function MobileNav() {
               height={35}
               className="h-9 w-auto"
             />
+            <SheetClose
+              render={<Button variant="ghost" className="size-11" />}
+              aria-label="Close navigation menu"
+            >
+              <X aria-hidden="true" />
+            </SheetClose>
           </div>
           <Separator />
           <nav className="flex flex-col gap-1 p-4 flex-1">
