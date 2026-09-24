@@ -32,6 +32,7 @@ export const navigation = [
   { label: "Home", href: "/" },
   { label: "Programs", href: "/programs" },
   { label: "Gallery", href: "/gallery" },
+  { label: "News", href: "/news" },
   { label: "About Us", href: "/about" },
   { label: "Donate", href: "/donate", isCta: true },
 ];
@@ -339,6 +340,7 @@ export const footerContent = {
     { label: "Home", href: "/" },
     { label: "Programs", href: "/programs" },
     { label: "Gallery", href: "/gallery" },
+    { label: "News", href: "/news" },
     { label: "About Us", href: "/about" },
   ],
   actionLinks: [
