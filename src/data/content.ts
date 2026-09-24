@@ -115,8 +115,8 @@ export const programs = [
       "Chess",
     ],
     image: "/images/image14.JPG",
-    signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSd6lBX3A_XMofCuhba4bdEMEQYE1aZIYIUYSJrlfM7Xa_mHlw/viewform",
-    cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSd6lBX3A_XMofCuhba4bdEMEQYE1aZIYIUYSJrlfM7Xa_mHlw/viewform" },
+    signUpUrl: "https://tally.so/r/445P65",
+    cta: { label: "Sign Up", href: "https://tally.so/r/445P65" },
   },
   {
     id: "educational",
@@ -132,8 +132,8 @@ export const programs = [
       "Professional Development",
     ],
     image: "/images/gallery01/hero.JPG",
-    signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform",
-    cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLScn8pb120ZH3F_0N3VtDIpPdg6KLDvooCydjPfeFZuB3Cws8A/viewform" },
+    signUpUrl: "https://tally.so/r/dWrQOV",
+    cta: { label: "Sign Up", href: "https://tally.so/r/dWrQOV" },
   },
   {
     id: "language",
@@ -146,8 +146,8 @@ export const programs = [
       "English Classes",
     ],
     image: "/images/language-community.JPG",
-    signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform",
-    cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSdRuJWjeyfKfkX-TbB2Gq25sSpmEw53oqwVVRqp9Z3VdDY6Lw/viewform" },
+    signUpUrl: "https://tally.so/r/7RG4Q2",
+    cta: { label: "Sign Up", href: "https://tally.so/r/7RG4Q2" },
   },
   {
     id: "afterschool",
@@ -161,8 +161,8 @@ export const programs = [
       "Leadership Training",
     ],
     image: "/images/gallery01/3842271f.jpg",
-    signUpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfYpIFUQnKYBPVwg-JAzRy1dePChZfoZqxmauT1kUucRNp4Mg/viewform",
-    cta: { label: "Sign Up", href: "https://docs.google.com/forms/d/e/1FAIpQLSfYpIFUQnKYBPVwg-JAzRy1dePChZfoZqxmauT1kUucRNp4Mg/viewform" },
+    signUpUrl: "https://tally.so/r/VLgor6",
+    cta: { label: "Sign Up", href: "https://tally.so/r/VLgor6" },
   },
   {
     id: "art",
@@ -179,7 +179,8 @@ export const programs = [
     image: "/images/art-program.jpg",
     imagePosition: "50% 10%",
     imageAlt: "Young people making crafts together at a YCEC art program",
-    cta: { label: "Contact Us About Art", href: `mailto:${siteConfig.email}?subject=Art%20Program%20Inquiry` },
+    signUpUrl: "https://tally.so/r/eq494x",
+    cta: { label: "Sign Up", href: "https://tally.so/r/eq494x" },
   },
 ];
 

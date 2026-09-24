@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import { PageHeader } from "@/components/page-header";
 import { CTASection } from "@/components/cta-section";
-import { Button } from "@/components/ui/button";
+import { ProgramSignup } from "@/components/program-signup";
 import { programs, siteConfig } from "@/data/content";
 
 function CheckIcon() {
@@ -87,19 +87,12 @@ export default function ProgramsPage() {
                         ))}
                       </ul>
                       <div className="mt-8">
-                        <Button
-                          render={
-                            <a
-                              href={program.cta.href}
-                              target={program.cta.href.startsWith("http") ? "_blank" : undefined}
-                              rel="noopener noreferrer"
-                            />
-                          }
-                          nativeButton={false}
+                        <ProgramSignup
+                          title={program.title}
+                          formUrl={program.cta.href}
+                          label={program.cta.label}
                           className="bg-accent text-accent-foreground hover:bg-accent/90"
-                        >
-                          {program.cta.label}
-                        </Button>
+                        />
                       </div>
                     </div>
                   </div>

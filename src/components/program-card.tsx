@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { ProgramSignup } from "@/components/program-signup";
 
 interface ProgramCardProps {
   title: string;
@@ -43,7 +43,6 @@ export function ProgramCard({
   cta,
   index = 0,
 }: ProgramCardProps) {
-  const isExternal = cta.href.startsWith("http");
 
   return (
     <motion.div
@@ -85,31 +84,13 @@ export function ProgramCard({
           </ul>
         </CardContent>
         <CardFooter>
-          {isExternal ? (
-            <Button
-              render={
-                <a
-                  href={cta.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                />
-              }
-              nativeButton={false}
-              variant="outline"
-              className="w-full"
-            >
-              {cta.label}
-            </Button>
-          ) : (
-            <Button
-              render={<a href={cta.href} />}
-              nativeButton={false}
-              variant="outline"
-              className="w-full"
-            >
-              {cta.label}
-            </Button>
-          )}
+          <ProgramSignup
+            title={title}
+            formUrl={cta.href}
+            label={cta.label}
+            variant="outline"
+            className="w-full"
+          />
         </CardFooter>
       </Card>
     </motion.div>
