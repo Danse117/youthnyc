@@ -86,15 +86,15 @@ export default function ProgramsPage() {
                           </li>
                         ))}
                       </ul>
-                      <div className="mt-8">
-                        <ProgramSignup
-                          title={program.title}
-                          formUrl={program.cta.href}
-                          label={program.cta.label}
-                          className="bg-accent text-accent-foreground hover:bg-accent/90"
-                        />
-                      </div>
                     </div>
+                  </div>
+                  <div className="mt-8 flex justify-center">
+                    <ProgramSignup
+                      title={program.title}
+                      formUrl={program.cta.href}
+                      label={program.cta.label}
+                      className="h-14 w-full max-w-xs px-10 text-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90"
+                    />
                   </div>
                 </motion.div>
               );
