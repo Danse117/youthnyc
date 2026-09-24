@@ -6,7 +6,7 @@ export const siteConfig = {
     "Youth Center based in Brooklyn, New York. Non-Profit organization created to empower the future leaders of the world.",
   url: "https://www.youthnyc.org",
   donationUrl: "https://www.paypal.com/ncp/payment/UGX3TCWU8ZREN",
-  volunteerFormUrl: "https://forms.gle/yRJeWk4dvRnC89bMA",
+  volunteerFormUrl: "https://tally.so/r/81OAdA",
   email: "info@youthnyc.org",
   phone: "(718) 866-0666",
   address: {

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
+import { ProgramSignup } from "@/components/program-signup";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -11,6 +12,7 @@ interface CTASectionProps {
   description?: string;
   cta: { label: string; href: string };
   variant?: "primary" | "accent";
+  formTitle?: string;
   className?: string;
 }
 
@@ -20,6 +22,7 @@ export function CTASection({
   description,
   cta,
   variant = "primary",
+  formTitle,
   className,
 }: CTASectionProps) {
   const isPrimary = variant === "primary";
@@ -72,7 +75,19 @@ export function CTASection({
           transition={{ duration: 0.5, delay: 0.15 }}
           className="mt-10"
         >
-          {isExternal ? (
+          {formTitle ? (
+            <ProgramSignup
+              title={formTitle}
+              formUrl={cta.href}
+              label={cta.label}
+              className={cn(
+                "h-12 px-8 text-base font-semibold",
+                isPrimary
+                  ? "bg-accent text-accent-foreground hover:bg-accent/90"
+                  : "bg-primary text-primary-foreground hover:bg-primary/90"
+              )}
+            />
+          ) : isExternal ? (
             <Button
               render={
                 <a href={cta.href} target="_blank" rel="noopener noreferrer" />

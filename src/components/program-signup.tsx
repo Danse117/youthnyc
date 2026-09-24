@@ -26,7 +26,7 @@ export function ProgramSignup({
     <Dialog.Root disablePointerDismissal>
       <Dialog.Trigger
         render={<Button variant={variant} className={className} />}
-        aria-label={`${label} for ${title}`}
+        aria-label={label.toLowerCase().includes(title.toLowerCase()) ? label : `${label} for ${title}`}
       >
         {label}
       </Dialog.Trigger>

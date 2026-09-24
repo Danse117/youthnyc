@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { programs } from '../src/data/content.ts';
+import { programs, siteConfig, heroContent, volunteerContent, footerContent } from '../src/data/content.ts';
 
 // Published forms verified in the YouthNYC Tally account.
 const expectedForms = {
@@ -20,3 +20,11 @@ for (const [programId, formId] of Object.entries(expectedForms)) {
     assert.equal(program.cta.label, 'Sign Up');
   });
 }
+
+test('volunteer entry points share the published volunteer form', () => {
+  const expected = 'https://tally.so/r/81OAdA';
+  assert.equal(siteConfig.volunteerFormUrl, expected);
+  assert.equal(heroContent.secondaryCta.href, expected);
+  assert.equal(volunteerContent.cta.href, expected);
+  assert.equal(footerContent.actionLinks.find(({ label }) => label === 'Volunteer').href, expected);
+});
